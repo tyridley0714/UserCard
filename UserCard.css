@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+  }
+  .container {
+    width: 900px;
+    margin: auto;
+    padding: 25px;
+    
+  }
+  .Profile-Bar{
+   
+    color: #ffff;
+    background-color: black;
+    width: 900px;
+    height: 75px;
+    display: flex;
+    align-items: flex-start;
+  }
+  .Profile-Bar, .profile, .home, .My-Profile, .Find-Connections {
+    justify-content: space-evenly;
+    padding: 3px;
+    }
+    .home, .My-Profile, .Find-Connections{
+      margin-top: 25px;
+    }
+    .profile{
+      margin-top: 20px;
+    }
+    .Sign  {
+    color: white;
+    background-color: #00ced1;
+    margin-top: 20px;
+    padding: 10px;
+  }
+
+  .User-Card {
+    width: 500px;
+    border: 2px solid grey;
+    margin-left: 10%;
+    margin-top: 50px;
+    padding: 10px;
+  }
+  .mapmarker-body{
+    font-weight: 900;
+    padding: 10px;
+   
+  }
+  
+  .usercircle-header {
+    height: 100px;
+    background-color:  lightskyblue;
+    
+  
+  }
+  .circlepng {
+    width: 75px;
+    margin-top: -35px;
+    margin-left: 20px;
+    padding: 10px;
+   
+
+  }
+  .name {
+    padding: 5px;
+  }
+  #marker {
+      width: 20px;
+      margin-left: 10px;
+      padding: 1px;
+  }
+  p {
+    margin-left: -10px;
+    margin-top: -50px;
+    display: flex;
+    display: inline-flex;
+  }
+  a {
+      color: #3a81e6;
+      padding: 10px;
+  }
+.gearpng {
+  width: 10px;
+}
+.row {
+  display: flex;
+  justify-content: flex-end; 
+  width: 300px;
+  border: 2px solid grey;
+  margin-top: -280px;
+  height: 220px;
+  margin-left: 630px;
+  padding: 10px;
+}
+.Connection-requests {
+  justify-content: flex-start;
+  color: white;
+  background-color: #343a40;
+  border-radius: 5%;
+  width: 480px;
+  height: 25px;
+  margin-left: -50px;
+}
+
+.box-2 {
+  display: flex;
+  justify-content: flex-end; 
+  width: 250px;
+  border: 2px solid grey;
+  margin-top: 20px;
+  height: 250px;
+  margin-left: 630px;
+  padding: 10px;
+
+}
+.Your-Connections {
+  text-align: start;
+  margin-left: 640px;
+  margin-top:  -250px;
+  color: white;
+  background-color: #343a40;
+  border-radius: 5%;
+  width: 250px;
+  height: 25px;
+  padding: 3px;
+}
+.box-3 {
+  width: 500px;
+  border: 2px solid grey;
+  margin-top: -220px;
+  height: 220px;
+  margin-left: 270px;
+  margin-right: 400px;
+  padding: 10px;
+}
+.Education {
+  color: white;
+  background-color: #343a40;
+  border-radius: 5%;
+  display: flex;
+  width: 480px;
+  height: 25px;
+  margin-left: 300px;
+  margin-top: -225px;
+
+}
+.smallusercircle1 {
+  width: 50px;
+  height: 50px;
+  margin-top: 60px;
+  margin-bottom: -100px
+}
+.smallusercircle2 {
+  width: 70px;
+  height: 50px;
+  margin-top: 150px;
+  margin-left: -50px;
+  padding: 5px;
+}
+.smallusercircle4 {
+  width: 50px;
+  height: 50px;
+  margin-left: 650px;
+  padding: 5px;
+}
+.smallusercircle5 {
+  width: 50px;
+  height: 50px;
+  margin-left: 650px;
+  margin-top: 60px;
+}
